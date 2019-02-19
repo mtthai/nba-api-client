@@ -60,7 +60,7 @@ nba.getPlayerID("James Harden"); //{ PlayerID: 201935, TeamID: 1610612745 }
 For a list of all current TeamIDs, go to [data/teams.json](https://github.com/mtthai/nba-api-client/blob/master/data/teams.json).
 And for a list of all PlayerIDs in NBA history, go to [data/players.json](https://github.com/mtthai/nba-api-client/blob/master/data/players.json). 
 
-To get more specific data from an endpoint, add parameters listed under its respective [endpoint](https://github.com/mtthai/nba-api-client/data/endpoints.json). All parameters and their possible values are listed in [data/params.json](https://github.com/mtthai/nba-api-client/blob/master/data/params.json).
+To get more specific data from an endpoint, add parameters listed under its respective [endpoint](https://github.com/mtthai/nba-api-client/blob/master/data/endpoints.json). All parameters and their possible values are listed in [data/params.json](https://github.com/mtthai/nba-api-client/blob/master/data/params.json).
 
 ```js
 nba.teamPlayerStats({TeamID: 1610612745, MeasureType: 'Advanced', Season: '2017-18', SeasonType: 'Playoffs'}).then(function(data){
