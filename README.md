@@ -9,15 +9,13 @@ Have Node installed and run in terminal:
 npm install nba-api-client
 ```
 
-## Usage
+## Example
 Endpoints, along with a description and parameters can be found in [data/endpoints.json](https://github.com/mtthai/nba-api-client/data/endpoints.json). 
 Functions return a promise and are generally named after their respective endpoints:
 
 ```
 team_details => teamDetails
 ```
-
-### Example
 ```js
 const nba = require('nba-api-client');
 
@@ -58,9 +56,7 @@ nba.teamDetails({TeamID: 1610612745}).then(function(data){
   TeamHof: {...},
   TeamRetired: {...} }
 ```
-
-
-### Parameters
+## Parameters
 Generally, "team" functions require a "TeamID", "player" functions require a "PlayerID", "box score" functions require a "GameID", and league functions require no parameters as they list all teams or players. To get a team's or player's ID:
 
 ```js
@@ -105,8 +101,7 @@ nba.teamPlayerStats({TeamID: 1610612745, MeasureType: 'Advanced', Season: '2017-
         DREB_PCT: 0.127,
 ...
 ```   
-
-### Options
+## Options
 Raw data from stats.nba.com come in a separate header and row set format. To present it a bit more user friendly, this module formats the data into a key: value object before outputting it to the user. To receive the raw data unformatted, include an options object with the function call:
 
 ```js
@@ -167,12 +162,10 @@ nba.teamDetails({TeamID: 1610612745}, options).then(function(data){
 ```
 This will add a parameters object at the end similar to the one from a nonformatted output.
 
-### Note
-
 Some endpoints from stats.nba.com like league_leader, player_estimated_advanced_stats, league_player_shot_locations have different key names and formatting. Thus, the default option for these params have been set to 'formatted: false' to return the raw data unformatted.
 
 
-### Logos, Player Images, and Play By Play Video
+## Logos, Player Images, and Play By Play Video
 
 getTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
 
