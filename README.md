@@ -8,14 +8,10 @@ Have Node installed and run in terminal:
 ```
 npm install nba-api-client
 ```
-
+&nbsp
 ## Example
-Endpoints, along with a description and parameters can be found in [data/endpoints.json](https://github.com/mtthai/nba-api-client/data/endpoints.json). 
-Functions return a promise and are generally named after their respective endpoints:
-
-```
-team_details => teamDetails
-```
+Endpoints, along with a description and parameters can be found in [data/endpoints.json](https://github.com/mtthai/nba-api-client/blob/master/data/endpoints.json). 
+Functions return a promise and are generally named after their respective endpoints: team_details => teamDetails. Ex:
 ```js
 const nba = require('nba-api-client');
 
@@ -56,6 +52,7 @@ nba.teamDetails({TeamID: 1610612745}).then(function(data){
   TeamHof: {...},
   TeamRetired: {...} }
 ```
+&nbsp
 ## Parameters
 Generally, "team" functions require a "TeamID", "player" functions require a "PlayerID", "box score" functions require a "GameID", and league functions require no parameters as they list all teams or players. To get a team's or player's ID:
 
@@ -63,10 +60,10 @@ Generally, "team" functions require a "TeamID", "player" functions require a "Pl
 nba.getTeamID("Houston Rockets"); //{ TeamID: 1610612745, Abbrev: 'HOU', TeamName: 'Rockets', City: 'Houston' }
 nba.getPlayerID("James Harden"); //{ PlayerID: 201935, TeamID: 1610612745 }
 ```
-For a list of all current TeamIDs, go to [data/teams.json](https://github.com/mtthai/nba-api-client/data/teams.json).
-And for a list of all PlayerIDs in NBA history, go to [data/players.json](https://github.com/mtthai/nba-api-client/data/players.json). 
+For a list of all current TeamIDs, go to [data/teams.json](https://github.com/mtthai/nba-api-client/blob/master/data/teams.json).
+And for a list of all PlayerIDs in NBA history, go to [data/players.json](https://github.com/mtthai/nba-api-client/blob/master/data/players.json). 
 
-To get more specific data from an endpoint, add parameters listed under its respective [endpoint](https://github.com/mtthai/nba-api-client/data/endpoints.json). All parameters and their possible values are listed in [data/params.json](https://github.com/mtthai/nba-api-client/data/params.json).
+To get more specific data from an endpoint, add parameters listed under its respective [endpoint](https://github.com/mtthai/nba-api-client/data/endpoints.json). All parameters and their possible values are listed in [data/params.json](https://github.com/mtthai/nba-api-client/blob/master/data/params.json).
 
 ```js
 nba.teamPlayerStats({TeamID: 1610612745, MeasureType: 'Advanced', Season: '2017-18', SeasonType: 'Playoffs'}).then(function(data){
@@ -101,6 +98,7 @@ nba.teamPlayerStats({TeamID: 1610612745, MeasureType: 'Advanced', Season: '2017-
         DREB_PCT: 0.127,
 ...
 ```   
+&nbsp
 ## Options
 Raw data from stats.nba.com come in a separate header and row set format. To present it a bit more user friendly, this module formats the data into a key: value object before outputting it to the user. To receive the raw data unformatted, include an options object with the function call:
 
@@ -164,7 +162,7 @@ This will add a parameters object at the end similar to the one from a nonformat
 
 Some endpoints from stats.nba.com like league_leader, player_estimated_advanced_stats, league_player_shot_locations have different key names and formatting. Thus, the default option for these params have been set to 'formatted: false' to return the raw data unformatted.
 
-
+&nbsp
 ## Logos, Player Images, and Play By Play Video
 
 getTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
