@@ -59,6 +59,7 @@ nba.teamDetails({TeamID: 1610612745}).then(function(data){
   TeamRetired: {...} }
 ```
 
+
 ### Parameters
 Generally, "team" functions require a "TeamID", "player" functions require a "PlayerID", "box score" functions require a "GameID", and league functions require no parameters as they list all teams or players. To get a team's or player's ID:
 
@@ -170,6 +171,7 @@ This will add a parameters object at the end similar to the one from a nonformat
 
 Some endpoints from stats.nba.com like league_leader, player_estimated_advanced_stats, league_player_shot_locations have different key names and formatting. Thus, the default option for these params have been set to 'formatted: false' to return the raw data unformatted.
 
+
 ### Logos, Player Images, and Play By Play Video
 
 getTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
@@ -192,8 +194,6 @@ nba.playByPlay({GameID: '0021800848'}).then(function(data){
   console.log(data)
 });
 ```
-Output:
-
 ```
 ...
  { GAME_ID: '0021800848',
@@ -209,6 +209,7 @@ Output:
 ...
 AvailableVideo: { VIDEO_AVAILABLE_FLAG: 1 }
 ```
+
 A VIDEO_AVAILABLE_FLAG at the end of the PBP data will indicate if there's video available for the game.
 
 Possible video sizes are: 1920x1080, 1280x720, 960x540, 768x432, 640x360, 480x270, 416x240.
