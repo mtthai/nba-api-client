@@ -25,8 +25,6 @@ nba.teamDetails({TeamID: 1610612745}).then(function(data){
 	console.log(data)
 })
 ```
-
-Output: 
 ```
 { TeamBackground:
    { TEAM_ID: 1610612745,
@@ -117,9 +115,6 @@ nba.teamDetails({TeamID: 1610612745}, options).then(function(data){
 	console.log(data)
 })
 ```    
-
-Output: 
-
 ```
 {
   "resource": "teamdetails",
@@ -177,7 +172,7 @@ Some endpoints from stats.nba.com like league_leader, player_estimated_advanced_
 
 ### Logos, Player Images, and Play By Play Video
 
-geTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
+getTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
 
 ```js
 nba.getTeamLogoURLs("HOU")
