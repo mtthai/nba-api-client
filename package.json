@@ -1,7 +1,11 @@
 {
   "name": "nba-api-client",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "client for almost every stats.nba.com API endpoint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtthai/nba-api-client.git"
+  },
   "keywords": [
     "nba",
     "api",
