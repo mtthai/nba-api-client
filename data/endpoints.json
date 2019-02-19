@@ -1,0 +1,1979 @@
+{
+    "all_players_list": {
+        "desc": "Lists all players in NBA history or by season",
+        "params": {
+            "IsOnlyCurrentSeason": "0",
+            "LeagueID": "00",
+            "playerList": "",
+            "Season": "2018-19"
+        },
+        "url": "https://stats.nba.com/stats/commonallplayers"
+    },
+
+    "all_time_leaders": {
+        "desc": "League all time stat leaders",
+        "params": {
+            "LeagueID": "00",
+            "PerMode": "Totals",
+            "SeasonType": "Regular+Season",
+            "TopX": "10"
+        },
+        "url": "https://stats.nba.com/stats/alltimeleadersgrids"
+    },
+
+    "box_score_advanced": {
+        "desc": "Advanced boxscore stats for a given game",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscoreadvancedv2"
+    },
+
+    "box_score_defense": {
+        "desc": "Boxscore defense stats",
+        "params": {
+            "GameID": ""
+        },
+        "url": "https://stats.nba.com/stats/boxscoredefensive"
+    },
+
+    "box_score_four_factors": {
+        "desc": "Boxscore efg%, fta rate, to ratio, oreb% and corresponding defending stats",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscorefourfactorsv2"
+    },
+
+    "box_score_hustle": {
+        "desc": "Boxscore hustle stats",
+        "params": {
+            "GameID": ""
+        },
+        "url": "https://stats.nba.com/stats/hustlestatsboxscore"
+    },
+
+    "box_score_matchups": {
+        "desc": "Boxscore player vs player matchup stats",
+        "params": {
+            "GameID": ""
+        },
+        "url": "https://stats.nba.com/stats/boxscorematchups"
+    },
+
+    "box_score_misc": {
+        "desc": "Boxscore misc stats",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscoremiscv2"
+    },
+
+    "box_score_player_tracking": {
+        "desc": "Boxscore tracking stats",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscoreplayertrackv2"
+    },
+
+    "box_score_scoring": {
+        "desc": "Boxscore scoring stats",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscorescoringv2"
+    },
+
+    "box_score_summary": {
+        "desc": "Game summary, stats, and details",
+        "params": {
+            "GameID": ""
+        },
+        "url": "https://stats.nba.com/stats/boxscoresummaryv2"
+    },
+
+    "box_score_traditional": {
+        "desc": "Traditional boxscore stats for a given game",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscoretraditionalv2"
+    },
+
+    "box_score_usage": {
+        "desc": "Boxscore usage stats",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "28800",
+            "GameID": "",
+            "RangeType": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/boxscoreusagev2"
+    },
+
+    "draft_combine_drill_results": {
+        "desc": "Draft combine drill data",
+        "params": {
+            "LeagueID": "00",
+            "SeasonYear": "2018-19"
+        },
+        "url": "https://stats.nba.com/stats/draftcombinedrillresults"
+    },
+
+    "draft_combine_nonstationary_shooting": {
+        "desc": "Draft combine non-stationary shooting data",
+        "params": {
+            "LeagueID": "00",
+            "SeasonYear": "2018-19"
+        },
+        "url": "https://stats.nba.com/stats/draftcombinenonstationaryshooting"
+    },
+
+    "draft_combine_player_anthro": {
+        "desc": "Draft COmbine player anthro data",
+        "params": {
+            "LeagueID": "00",
+            "SeasonYear": "2018-19"
+        },
+        "url": "https://stats.nba.com/stats/draftcombineplayeranthro"
+    },
+
+    "draft_combine_spot_up_shooting": {
+        "desc": "Draft combine spot up shooting data",
+        "params": {
+            "LeagueID": "00",
+            "SeasonYear": "2018-19"
+        },
+        "url": "https://stats.nba.com/stats/draftcombinespotshooting"
+    },
+
+    "draft_history": {
+        "desc": "Draft history by year",
+        "params": {
+            "College": "",
+            "LeagueID": "00",
+            "OverallPick": "",
+            "RoundNum": "",
+            "RoundPick": "",
+            "Season": "2018",
+            "TeamID": "0",
+            "TopX": ""
+        },
+        "url": "https://stats.nba.com/stats/drafthistory"
+    },
+
+    "franchise_history": {
+        "desc": "History of team names and city relocations",
+        "params": {
+            "LeagueID": "00"
+        },
+        "url": "https://stats.nba.com/stats/franchisehistory"
+    },
+
+    "franchise_leaders": {
+        "desc": "Historic team leaders in basic stats",
+        "params": {
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/franchiseleaders"
+    },
+
+    "franchise_leaders_rank": {
+        "desc": "Historic team leaders and ranks in most stats",
+        "params": {
+            "LeagueID": "00",
+            "PerMode": "PerGame",
+            "SeasonType": "Regular+Season",
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/franchiseleaderswrank"
+    },
+
+    "infographic_fanduel_player": {
+        "desc": "Fantasy points for players in game",
+        "params": {
+            "GameID": ""
+        },
+        "url": "https://stats.nba.com/stats/infographicfanduelplayer"
+    },
+
+    "league_game_finder": {
+        "desc": "Game finder by stat category",
+        "params": {
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftNumber": "",
+            "DraftRound": "",
+            "DraftYear": "",
+            "GB": "N",
+            "gtAST": "",
+            "gtBLK": "",
+            "gtDREB": "",
+            "gtFG3_PCT": "",
+            "gtFG3GA": "",
+            "gtFG3M": "",
+            "gtFG_PCT": "",
+            "gtFGA": "",
+            "gtFGM": "",
+            "gtFT_PCT": "",
+            "gtFTA": "",
+            "gtFTM": "",
+            "gtMIN": "",
+            "gtOREB": "",
+            "gtPF": "",
+            "gtPTS": "60",
+            "gtREB": "",
+            "gtSTL": "",
+            "gtTOV": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PlayerOrTeam": "P",
+            "Season": "",
+            "SeasonType": "",
+            "StatCategory": "PTS",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "VsTeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguegamefinder"
+    },
+
+    "league_leaders": {
+        "desc": "League leaders by stat category",
+        "params": {
+            "LeagueID": "00",
+            "PerMode": "PerGame",
+            "Scope": "S",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StatCategory": "PTS"
+        },
+        "url": "https://stats.nba.com/stats/leagueleaders"
+    },
+
+    "league_player_bio_stats": {
+        "desc": "All players height, weight, college, country, draft stats including some traditional/advanced stats",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayerbiostats"
+    },
+
+    "league_player_box_scores_advanced": {
+        "desc": "All players box scores including advanced stats, from 1996-97",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playergamelogs"
+    },
+
+    "league_player_box_scores_traditional": {
+        "desc": "All players traditional box scores",
+        "params": {
+            "Counter": "1000",
+            "DateFrom": "",
+            "DateTo": "",
+            "Direction": "DESC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "P",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "Sorter": "DATE"
+        },
+        "url": "https://stats.nba.com/stats/leaguegamelog"
+    },
+
+    "league_player_clutch_stats": {
+        "desc": "All players clutch stats",
+        "params": {
+            "AheadBehind": "Ahead or Behind",
+            "ClutchTime": "Last 5 Minutes",
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PointDiff": "5",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayerclutch"
+    },
+
+    "league_player_estimated_advanced_stats": {
+        "desc": "All players estimated advanced stats",
+        "params": {
+            "LeagueID": "00",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season"
+        },
+        "url": "https://stats.nba.com/stats/playerestimatedmetrics"
+    },
+
+    "league_player_general_stats": {
+        "desc": "All players general and advanced stats",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "TwoWay": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayerstats"
+    },
+
+    "league_player_hustle_stats": {
+        "desc": "All players hustle stats",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguehustlestatsplayer"
+    },
+
+    "league_player_shooting_defense": {
+        "desc": "All players tracking on shot location defense",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "DefenseCategory": "Overall",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerOrTeam": "Player",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "PtMeasureType": "Drives",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashptdefend"
+    },
+
+    "league_player_shot_location_defense": {
+        "desc": "All players shooting defensive stats by range",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "DistanceRange": "5ft+Range",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Opponent",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayershotlocations"
+    },
+
+    "league_player_shot_locations": {
+        "desc": "All players shooting stats by range",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "DistanceRange": "5ft Range",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayershotlocations"
+    },
+
+    "league_player_tracking_shooting": {
+        "desc": "All player tracked shooting stats",
+        "params": {
+            "CloseDefDistRange": "",
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "DribbleRange": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "GeneralRange": "Overall",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerOrTeam": "Player",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "PtMeasureType": "Drives",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "ShotDistRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "TouchTimeRange": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashplayerptshot"
+    },
+
+    "league_player_tracking_stats": {
+        "desc": "All player tracking stats",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerOrTeam": "Player",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "PtMeasureType": "Drives",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashptstats"
+    },
+
+    "league_standings": {
+        "desc": "Current league standings and w/l records",
+        "params": {
+            "LeagueID": "00",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season"
+        },
+        "url": "https://stats.nba.com/stats/leaguestandingsv3"
+    },
+
+    "league_team_clutch_stats": {
+        "desc": "All teams clutch stats",
+        "params": {
+            "AheadBehind": "Ahead or Behind",
+            "ClutchTime": "Last 5 Minutes",
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PointDiff": "5",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "",
+            "TwoWay": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashteamclutch"
+    },
+
+    "league_team_defense_stats": {
+        "desc": "All teams defense stats",
+        "params": {
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "DefenseCategory": "Overall",
+            "GameScope": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "",
+            "TwoWay": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashptteamdefend"
+    },
+
+    "league_team_estimated_advanced_stats": {
+        "desc": "All teams estimated advanced stats",
+        "params": {
+            "LeagueID": "00",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season"
+        },
+        "url": "https://stats.nba.com/stats/teamestimatedmetrics"
+    },
+
+    "league_team_general_stats": {
+        "desc": "All teams general stats",
+        "params": {
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "",
+            "TwoWay": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashteamstats"
+    },
+
+    "league_team_hustle_stats": {
+        "desc": "All teams hustle stats: screens, box outs, deflections, balls recovered, charges drawn, contested shots",
+        "params": {
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguehustlestatsteam"
+    },
+
+    "league_team_opponent_shooting": {
+        "desc": "All teams defense on shot stats: shotclock, dribbles, touch time, range",
+        "params": {
+            "CloseDefDistRange": "",
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "DribbleRange": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "GeneralRange": "Overall",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "ShotDistRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "TouchTimeRange": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashoppptshot"
+    },
+
+    "league_team_shooting_stats": {
+        "desc": "All teams shot stats: shotclock, dribbles, touch time, defender range",
+        "params": {
+            "CloseDefDistRange": "",
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftPick": "",
+            "DraftYear": "",
+            "DribbleRange": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "GeneralRange": "Overall",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "ShotDistRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "TouchTimeRange": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashteamptshot"
+    },
+
+    "league_team_tracking_shots": {
+        "desc": "All teams shots by range",
+        "params": {
+            "CloseDefDistRange": "",
+            "College": "",
+            "Conference": "",
+            "Country": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "DistanceRange": "5ft Range",
+            "DraftPick": "",
+            "DraftYear": "",
+            "DribbleRange": "",
+            "GameScope": "",
+            "GameSegment": "",
+            "GeneralRange": "Overall",
+            "Height": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerExperience": "",
+            "PlayerPosition": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "ShotDistRange": "",
+            "StarterBench": "",
+            "TeamID": "0",
+            "TouchTimeRange": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "Weight": ""
+        },
+        "url": "https://stats.nba.com/stats/leaguedashteamshotlocations"
+    },
+
+    "play_by_play": {
+        "desc": "Play by play data for a given game",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "55800",
+            "GameID": "",
+            "RangeType": "2",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/playbyplayv2"
+    },
+
+    "player_awards": {
+        "desc": "PLayer awards",
+        "params": {
+            "PlayerID": ""
+        },
+        "url": "https://stats.nba.com/stats/playerawards"
+    },
+
+    "player_box_scores": {
+        "desc": "Player box scores",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "Totals",
+            "PlayerID": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playergamelogs"
+    },
+
+    "player_career_stats": {
+        "desc": "PLayer career stats, highs, and rankings",
+        "params": {
+            "LeagueID": "00",
+            "PerMode": "PerGame",
+            "PlayerID": ""
+        },
+        "url": "https://stats.nba.com/stats/playerprofilev2"
+    },
+
+    "player_game_streak_finder": {
+        "desc": "Streak finder for players in consecutive games",
+        "params": {
+            "ActiveStreaksOnly": "",
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftNumber": "",
+            "DraftRound": "",
+            "DraftYear": "",
+            "gtAST": "",
+            "gtBLK": "",
+            "gtDREB": "",
+            "gtFG3_PCT": "",
+            "gtFG3GA": "",
+            "gtFG3M": "",
+            "gtFG_PCT": "",
+            "gtFGA": "",
+            "gtFGM": "",
+            "gtFT_PCT": "",
+            "gtFTA": "",
+            "gtFTM": "",
+            "gtMIN": "",
+            "gtOREB": "",
+            "gtPF": "",
+            "gtPTS": "30",
+            "gtREB": "",
+            "gtSTL": "",
+            "gtTOV": "",
+            "LeagueID": "00",
+            "Location": "",
+            "MinGames": "",
+            "Outcome": "",
+            "Season": "",
+            "SeasonType": "",
+            "StatCategory": "PTS",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "VsTeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/playergamestreakfinder"
+    },
+
+    "player_info": {
+        "desc": "Player info and bio data",
+        "params": {
+            "PlayerID": ""
+        },
+        "url": "https://stats.nba.com/stats/commonplayerinfo"
+    },
+
+    "player_matchups": {
+        "desc": "Player matchup data: player vs players, player vs player",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "DefPlayerID": "",
+            "DefTeamID": "",
+            "LeagueID": "00",
+            "OffPlayerID": "",
+            "OffTeamID": "",
+            "Outcome": "",
+            "PerMode": "PerGame",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season"
+        },
+        "url": "https://stats.nba.com/stats/leagueseasonmatchups"
+    },
+
+    "player_splits": {
+        "desc": "Player general splits: location, pre/post allstar, w/l, month, rest, starter",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "general",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashboardbygeneralsplits"
+    },
+
+    "player_splits_by_year": {
+        "desc": "Player splits year over year",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "yoy",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashboardbyyearoveryear"
+    },
+
+    "player_tracking_defense": {
+        "desc": "Player tracking for shots defense",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashptshotdefend"
+    },
+
+    "player_tracking_passes": {
+        "desc": "Player tracking for passes",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashptpass"
+    },
+
+    "player_tracking_reb": {
+        "desc": "Player tracking for rebounds",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashptreb"
+    },
+
+    "player_tracking_shooting": {
+        "desc": "Player tracking for shots",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlayerID": "",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "0",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/playerdashptshots"
+    },
+
+    "schedule": {
+        "desc": "Schedule for all games",
+        "params": {},
+        "url": "https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2018/league/00_full_schedule_week.json"
+    },
+
+    "scoreboard": {
+        "desc": "All games for a given date",
+        "params": {
+            "DayOffset": "0",
+            "GameDate": "",
+            "LeagueID": "00"
+        },
+        "url": "https://stats.nba.com/stats/scoreboardV2"
+    },
+
+    "team_box_scores_advanced": {
+        "desc": "Historical team box scores by game and season, including advanced stats going back to 1996-97",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "Totals",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamgamelogs"
+    },
+
+    "team_box_scores_traditional": {
+        "desc": "Historical team box scores by game and season, traditional stats only",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "LeagueID": "00",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season",
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/teamgamelog"
+    },
+
+    "team_details": {
+        "desc": "Team details, history, and awards",
+        "params": {
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdetails"
+    },
+
+    "team_game_streak_finder": {
+        "desc": "Streak finder for teams in consecutive games",
+        "params": {
+            "ActiveStreaksOnly": "",
+            "Conference": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "Division": "",
+            "DraftNumber": "",
+            "DraftRound": "",
+            "DraftYear": "",
+            "gtAST": "",
+            "gtBLK": "",
+            "gtDREB": "",
+            "gtFG3_PCT": "",
+            "gtFG3GA": "",
+            "gtFG3M": "",
+            "gtFG_PCT": "",
+            "gtFGA": "",
+            "gtFGM": "",
+            "gtFT_PCT": "",
+            "gtFTA": "",
+            "gtFTM": "",
+            "gtMIN": "",
+            "gtOREB": "",
+            "gtPF": "",
+            "gtPTS": "120",
+            "gtREB": "",
+            "gtSTL": "",
+            "gtTOV": "",
+            "LeagueID": "00",
+            "Location": "",
+            "MinGames": "",
+            "Outcome": "",
+            "Season": "",
+            "SeasonType": "",
+            "StatCategory": "PTS",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "VsTeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/teamgamestreakfinder"
+    },
+
+    "team_general_splits": {
+        "desc": "Team stats by splits: home/away, win/lose, month, etc.",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "general",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbygeneralsplits"
+    },
+
+    "team_opponent_splits": {
+        "desc": "Team stats by opponent splits: vs team, conference, division",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "opp",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbyopponent"
+    },
+
+    "team_lastngames_splits": {
+        "desc": "Team stats by last n games splits",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "lastn",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbylastngames"
+    },
+
+    "team_in_game_splits": {
+        "desc": "Team stats by in game splits",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "ingame",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbygamesplits"
+    },
+
+    "team_clutch_splits": {
+        "desc": "Team stats by clutch splits",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "clutch",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbyclutch"
+    },
+
+    "team_performance_splits": {
+        "desc": "Team stats by team performance splits",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "teamperf",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbyteamperformance"
+    },
+
+    "team_year_splits": {
+        "desc": "Team stats by year over year splits",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "yoy",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbyyearoveryear"
+    },
+
+    "team_lineups": {
+        "desc": "Team's lineups",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameID": "",
+            "GameSegment": "",
+            "GroupQuantity": "5",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashlineups"
+    },
+
+    "team_player_matchups": {
+        "desc": "Team vs. team, offensive player vs defensive player matchup data",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "DefTeamID": "",
+            "LeagueID": "00",
+            "OffTeamID": "",
+            "Outcome": "",
+            "PerMode": "PerGame",
+            "PORound": "0",
+            "Season": "2018-19",
+            "SeasonType": "Regular+Season"
+        },
+        "url": "https://stats.nba.com/stats/leagueseasonmatchups"
+    },
+
+    "team_player_on_off_details": {
+        "desc": "Player on/off traditional stats by team",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamplayeronoffdetails"
+    },
+
+    "team_player_on_off_ratings": {
+        "desc": "Player on/off net ratings by team",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "Totals",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamplayeronoffsummary"
+    },
+
+    "team_player_stats": {
+        "desc": "Player stats by team",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamplayerdashboard"
+    },
+
+    "team_roster": {
+        "desc": "Current team roster",
+        "params": {
+            "LeagueID": "00",
+            "Season": "2018-19",
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/commonteamroster"
+    },
+
+    "team_shooting_splits": {
+        "desc": "Team shooting splits by home/away, win/lose, month, etc.",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "Totals",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "ShotClockRange": "",
+            "Split": "",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashboardbyshootingsplits"
+    },
+
+    "team_tracking_passes": {
+        "desc": "Team passes and assists tracking",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashptpass"
+    },
+
+    "team_tracking_reb": {
+        "desc": "Team rebound percentage by tracking",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashptreb"
+    },
+
+    "team_tracking_shots": {
+        "desc": "Team shots by range, shot clock, dribbles, closest defender, touch time",
+        "params": {
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LastNGames": "0",
+            "LeagueID": "00",
+            "Location": "",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": "0",
+            "Outcome": "",
+            "PaceAdjust": "N",
+            "Period": "0",
+            "PerMode": "PerGame",
+            "PlusMinus": "N",
+            "PORound": "0",
+            "Rank": "N",
+            "Season": "2018-19",
+            "SeasonSegment": "",
+            "SeasonType": "Regular+Season",
+            "TeamID": "",
+            "VsConference": "",
+            "VsDivision": ""
+        },
+        "url": "https://stats.nba.com/stats/teamdashptshots"
+    },
+
+    "team_year_by_year_stats": {
+        "desc": "Traditional team stats by year",
+        "params": {
+            "LeagueID": "00",
+            "PerMode": "Totals",
+            "SeasonType": "Regular+Season",
+            "TeamID": ""
+        },
+        "url": "https://stats.nba.com/stats/teamyearbyyearstats"
+    },
+
+    "transactions": {
+        "desc": "Transaction history",
+        "params": {},
+        "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json"
+    },
+
+    "win_probability": {
+        "desc": "Estimated in game win probability by time increment",
+        "params": {
+            "GameID": "",
+            "RunType": "each second"
+        },
+        "url": "https://stats.nba.com/stats/winprobabilitypbp"
+    }
+}

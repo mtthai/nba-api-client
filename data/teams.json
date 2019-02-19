@@ -1,0 +1,211 @@
+{
+  "Atlanta Hawks": {
+    "TeamID": 1610612737,
+    "Abbrev": "ATL",
+    "TeamName": "Hawks",
+    "City": "Atlanta"
+  },
+
+  "Boston Celtics": {
+    "TeamID": 1610612738,
+    "Abbrev": "BOS",
+    "TeamName": "Celtics",
+    "City": "Boston"
+  },
+
+  "Brooklyn Nets": {
+    "TeamID": 1610612751,
+    "Abbrev": "BKN",
+    "TeamName": "Nets",
+    "City": "Brooklyn"
+  },
+
+  "Charlotte Hornets": {
+    "TeamID": 1610612766,
+    "Abbrev": "CHA",
+    "TeamName": "Hornets",
+    "City": "Charlotte"
+  },
+
+  "Chicago Bulls": {
+    "TeamID": 1610612741,
+    "Abbrev": "CHI",
+    "TeamName": "Bulls",
+    "City": "Chicago"
+  },
+
+  "Cleveland Cavaliers": {
+    "TeamID": 1610612739,
+    "Abbrev": "CLE",
+    "TeamName": "Cavaliers",
+    "City": "Cleveland"
+  },
+
+  "Dallas Mavericks": {
+    "TeamID": 1610612742,
+    "Abbrev": "DAL",
+    "TeamName": "Mavericks",
+    "City": "Dallas"
+  },
+
+  "Denver Nuggets": {
+    "TeamID": 1610612743,
+    "Abbrev": "DEN",
+    "TeamName": "Nuggets",
+    "City": "Denver"
+  },
+  
+  "Detroit Pistons": {
+    "TeamID": 1610612765,
+    "Abbrev": "DET",
+    "TeamName": "Pistons",
+    "City": "Detroit"
+  },
+  
+  "Golden State Warriors": {
+    "TeamID": 1610612744,
+    "Abbrev": "GSW",
+    "TeamName": "Warriors",
+    "City": "Golden State"
+  },
+
+  "Houston Rockets": {
+    "TeamID": 1610612745,
+    "Abbrev": "HOU",
+    "TeamName": "Rockets",
+    "City": "Houston"
+  },
+
+  "Indiana Pacers": {
+    "TeamID": 1610612754,
+    "Abbrev": "IND",
+    "TeamName": "Pacers",
+    "City": "Indiana"
+  },
+
+  "Los Angeles Clippers": {
+    "TeamID": 1610612746,
+    "Abbrev": "LAC",
+    "TeamName": "Clippers",
+    "City": "Los Angeles"
+  },
+  
+  "Los Angeles Lakers": {
+    "TeamID": 1610612747,
+    "Abbrev": "LAL",
+    "TeamName": "Lakers",
+    "City": "Los Angeles"
+  },
+  
+  "Memphis Grizzlies": {
+    "TeamID": 1610612763,
+    "Abbrev": "MEM",
+    "TeamName": "Grizzlies",
+    "City": "Memphis"
+  },
+
+  "Miami Heat": {
+    "TeamID": 1610612748,
+    "Abbrev": "MIA",
+    "TeamName": "Heat",
+    "City": "Miami"
+  },
+
+  "Milwaukee Bucks": {
+    "TeamID": 1610612749,
+    "Abbrev": "MIL",
+    "TeamName": "Bucks",
+    "City": "Milwaukee"
+  },
+  
+  "Minnesota Timberwolves": {
+    "TeamID": 1610612750,
+    "Abbrev": "MIN",
+    "TeamName": "Timberwolves",
+    "City": "Minnesota"
+  },
+
+  "New Orleans Pelicans": {
+    "TeamID": 1610612740,
+    "Abbrev": "NOP",
+    "TeamName": "Pelicans",
+    "City": "New Orleans"
+  },
+
+  "New York Knicks": {
+    "TeamID": 1610612752,
+    "Abbrev": "NYK",
+    "TeamName": "Knicks",
+    "City": "New York"
+  },
+  
+  "Oklahoma City Thunder": {
+    "TeamID": 1610612760,
+    "Abbrev": "OKC",
+    "TeamName": "Thunder",
+    "City": "Oklahoma City"
+  },
+  
+  "Orlando Magic": {
+    "TeamID": 1610612753,
+    "Abbrev": "ORL",
+    "TeamName": "Magic",
+    "City": "Orlando"
+  },
+
+  "Philadelphia 76ers": {
+    "TeamID": 1610612755,
+    "Abbrev": "PHI",
+    "TeamName": "76ers",
+    "City": "Philadelphia"
+  },
+
+  "Phoenix Suns": {
+    "TeamID": 1610612756,
+    "Abbrev": "PHX",
+    "TeamName": "Suns",
+    "City": "Phoenix"
+  },
+
+  "Portland Trail Blazers": {
+    "TeamID": 1610612757,
+    "Abbrev": "POR",
+    "TeamName": "Trail Blazers",
+    "City": "Portland"
+  },
+
+  "Sacramento Kings": {
+    "TeamID": 1610612758,
+    "Abbrev": "SAC",
+    "TeamName": "Kings",
+    "City": "Sacramento"
+  },
+
+  "San Antonio Spurs": {
+    "TeamID": 1610612759,
+    "Abbrev": "SAS",
+    "TeamName": "Spurs",
+    "City": "San Antonio"
+  },
+
+  "Toronto Raptors": {
+    "TeamID": 1610612761,
+    "Abbrev": "TOR",
+    "TeamName": "Raptors",
+    "City": "Toronto"
+  },
+
+  "Utah Jazz": {
+    "TeamID": 1610612762,
+    "Abbrev": "UTA",
+    "TeamName": "Jazz",
+    "City": "Utah"
+  },
+  
+  "Washington Wizards": {
+    "TeamID": 1610612764,
+    "Abbrev": "WAS",
+    "TeamName": "Wizards",
+    "City": "Washington"
+  }
+}

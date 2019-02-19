@@ -1,0 +1,297 @@
+{
+    "AheadBehind": [
+        "Ahead or Behind",
+        "Ahead or Tied",
+        "Behind or Tied"
+    ],
+    "CloseDefDistRange": [
+        "0-2 Feet - Very Tight",
+        "2-4 Feet - Tight",
+        "4-6 Feet - Open",
+        "6+ Feet - Wide Open"
+    ],
+    "ClutchTime": [
+        "Last 1 Minute",
+        "Last 10 Seconds",
+        "Last 2 Minutes",
+        "Last 3 Minutes",
+        "Last 30 Seconds",
+        "Last 4 Minutes",
+        "Last 5 Minutes"
+    ],
+    "Conference": [
+        "East",
+        "West"
+    ],
+    "DateFrom": "M/DD/YYYY",
+    "DateTo": "M/DD/YYYY",
+    "DefenseCategory": [
+        "2 Pointers",
+        "3 Pointers",
+        "Less Than 10ft",
+        "Less Than 15ft",
+        "Less Than 6ft",
+        "Overall"
+    ],
+    "Direction": [
+        "ASC",
+        "DESC"
+    ],
+    "DistanceRange": [
+        "5ft Range",
+        "8ft Range",
+        "By Zone"
+    ],
+    "Division": [
+        "Atlantic",
+        "Central",
+        "Northwest",
+        "Pacific",
+        "Southeast",
+        "Southwest"
+    ],
+    "DribbleRange": [
+        "0 Dribbles",
+        "1 Dribbles",
+        "2 Dribbles",
+        "3-6 Dribbles",
+        "7+ Dribbles"
+    ],
+    "DraftPick": [
+        "1st Round",
+        "2nd Round",
+        "1st Pick",
+        "Lottery Pick",
+        "Top 5 Pick",
+        "Top 10 Pick",
+        "Top 15 Pick",
+        "Top 20 Pick",
+        "Top 25 Pick",
+        "Picks 11 Thru 20",
+        "Picks 21 Thru 30",
+        "Undrafted"
+    ],
+    "GameID": 0,
+    "GameSegment": [
+        "EntireGame",
+        "First Half",
+        "Second Half",
+        "Overtime"
+    ],
+    "GeneralRange": [
+        "Catch and Shoot",
+        "Less Than 10 ft",
+        "Overall",
+        "Pullups"
+    ],
+    "GroupQuantity": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "IsOnlyCurrentSeason": [
+        0,
+        1
+    ],
+    "LastNGames": [
+        0,
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "LeagueID": [
+        "00",
+        "10",
+        "20"
+    ],
+    "Location": [
+        "Away",
+        "Home"
+    ],
+    "MeasureType": [
+        "Advanced",
+        "Base",
+        "Defense",
+        "Four Factors",
+        "Misc",
+        "Opponent",
+        "Scoring"
+    ],
+    "Month": [
+        0,
+        1,
+        10,
+        11,
+        12,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "OpponentTeamID": 0,
+    "Outcome": [
+        "L",
+        "W"
+    ],
+    "PaceAdjust": [
+        "N",
+        "Y"
+    ],
+    "Period": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "PerMode": [
+        "MinutesPer",
+        "Per100Plays",
+        "Per100Possessions",
+        "Per36",
+        "Per40",
+        "Per48",
+        "PerGame",
+        "PerMinute",
+        "PerPlay",
+        "PerPossession",
+        "Totals"
+    ],
+    "PlayerID": 0,
+    "PlayerExperience": [
+        "Rookie",
+        "Sophmore",
+        "Veteran"
+    ],
+    "PlayerPosition": [
+        "Center",
+        "Forward",
+        "Guard",
+    ],
+    "PlusMinus": [
+        "N",
+        "Y"
+    ],
+    "PORound": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "PtMeasureType": [
+        "CatchShoot",
+        "DefensiveImpact",
+        "DefensiveRebounding",
+        "Drives",
+        "ElbowTouches",
+        "OffensiveRebounding",
+        "PaintTouches",
+        "Passing",
+        "PostUps",
+        "PullUpShooting",
+        "Rebounding",
+        "ShootingEfficiency",
+        "SpeedDistance",
+        "Touches"
+    ],
+    "Rank": [
+        "N",
+        "Y"
+    ],
+    "Season": "2018-19",
+    "SeasonSegment": [
+        "Post All-Star",
+        "Pre All-Star"
+    ],
+    "SeasonType": [
+        "All Star",
+        "Playoffs",
+        "Preseason",
+        "Regular Season"
+    ],
+    "ShotClockRange": [
+        "15-7 Average",
+        "18-15 Early",
+        "22-18 Very Early",
+        "24-22",
+        "4-0 Very Late",
+        "7-4 Late"
+    ],
+    "ShotDistRange": [
+        ">=10.0",
+        "Overall"
+    ],
+    "Split": [
+        "clutch",
+        "general",
+        "ingame",
+        "lastn",
+        "opp",
+        "teamperf",
+        "yoys"
+    ],
+    "StarterBench": [
+        "Bench",
+        "Starter"
+    ],
+    "StatCategory": [
+        "AST",
+        "BLK",
+        "DREB",
+        "EFF",
+        "FG3A",
+        "FG3M",
+        "FG3PCT",
+        "FGA",
+        "FGM",
+        "FG_PCT",
+        "FTA",
+        "FTM",
+        "FT_PCT",
+        "GP",
+        "MIN",
+        "OREB",
+        "PTS",
+        "REB",
+        "STL",
+        "TOV"
+    ],
+    "TeamID": 0,
+    "TouchTimeRange": [
+        "Touch 2-6 Seconds",
+        "Touch 6+ Seconds",
+        "Touch < 2 Seconds"
+    ],
+    "VsConference": [
+        "East",
+        "West"
+    ],
+    "VsDivision": [
+        "Atlantic",
+        "Central",
+        "Northwest",
+        "Pacific",
+        "Southeast",
+        "Southwest"
+    ]
+}
