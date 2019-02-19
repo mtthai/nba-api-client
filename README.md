@@ -158,7 +158,6 @@ This will add a parameters object at the end similar to the one from a nonformat
 
 Some endpoints from stats.nba.com like league_leader, player_estimated_advanced_stats, league_player_shot_locations have different key names and formatting. Thus, the default option for these params have been set to 'formatted: false' to return the raw data unformatted.
 
-&nbsp;
 ## Logos, Player Images, and Play By Play Video
 
 getTeamLogosURLs, getPlayerHeadShot, and getPBPVideoURL return URLs:
