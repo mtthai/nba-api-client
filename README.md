@@ -5,17 +5,14 @@ A client for almost all stats.nba.com API endpoints, written in Node.js.
 ## Installation
 Have Node installed and run in terminal:
 
-***
-npm install nba-api-client
-***
+'npm install nba-api-client'
+
 
 ## Usage
 Endpoints, along with a description and parameters can be found in [data/endpoints.json](https://github.com/mtthai/nba-api-client/data/endpoints.json). 
 Functions return a promise and are generally named after their respective endpoints:
 
-***
-team_details => teamDetails
-***
+'team_details => teamDetails'
 
 ### Example
 ```js
@@ -28,37 +25,37 @@ nba.teamDetails({TeamID: 1610612745}).then(function(data){
 
 Output: 
 ```json
-{ TeamBackground:
-   { TEAM_ID: 1610612745,
-     ABBREVIATION: 'HOU',
-     NICKNAME: 'Rockets',
-     YEARFOUNDED: 1967,
-     CITY: 'Houston',
-     ARENA: 'Toyota Center',
-     ARENACAPACITY: '18104',
-     OWNER: 'Tilman Fertitta',
-     GENERALMANAGER: 'Daryl Morey',
-     HEADCOACH: 'Mike D\'Antoni',
-     DLEAGUEAFFILIATION: 'Rio Grande Valley Vipers' },
-  TeamHistory:
+{ 'TeamBackground':
+   { 'TEAM_ID': 1610612745,
+     'ABBREVIATION': 'HOU',
+     'NICKNAME': 'Rockets',
+     'YEARFOUNDED': 1967,
+     'CITY': 'Houston',
+     'ARENA': 'Toyota Center',
+     'ARENACAPACITY': '18104',
+     'OWNER': 'Tilman Fertitta',
+     'GENERALMANAGER': 'Daryl Morey',
+     'HEADCOACH': 'Mike D\'Antoni',
+     'DLEAGUEAFFILIATION': 'Rio Grande Valley Vipers' },
+  'TeamHistory':
    { '0':
-      { TEAM_ID: 1610612745,
-        CITY: 'Houston',
-        NICKNAME: 'Rockets',
-        YEARFOUNDED: 1971,
-        YEARACTIVETILL: 2016 },
+      { 'TEAM_ID': 1610612745,
+        'CITY': 'Houston',
+        'NICKNAME': 'Rockets',
+        'YEARFOUNDED': 1971,
+        'YEARACTIVETILL': 2016 },
      '1':
-      { TEAM_ID: 1610612745,
-        CITY: 'San Diego',
-        NICKNAME: 'Rockets',
-        YEARFOUNDED: 1967,
-        YEARACTIVETILL: 1970 } },
-  TeamSocialSites: {...},
-  TeamAwardsChampionships: {...},
-  TeamAwardsConf: {...},
-  TeamAwardsDiv: {...},
-  TeamHof: {...},
-  TeamRetired: {...} }
+      { 'TEAM_ID': 1610612745,
+        'CITY': 'San Diego',
+        'NICKNAME': 'Rockets',
+        'YEARFOUNDED': 1967,
+        'YEARACTIVETILL': 1970 } },
+  'TeamSocialSites': {...},
+  'TeamAwardsChampionships': {...},
+  'TeamAwardsConf': {...},
+  'TeamAwardsDiv': {...},
+  'TeamHof': {...},
+  'TeamRetired': {...} }
 ```
 
 ### Parameters
