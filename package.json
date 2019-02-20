@@ -1,6 +1,6 @@
 {
   "name": "nba-api-client",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "client for almost every stats.nba.com API endpoint",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000 'test/test.js'",
-    "start": "node index.js"
+    "start": "nodcde index.js"
   },
   "author": "Marvin Thai <marvinthai@yahoo.com>",
   "license": "MIT",
