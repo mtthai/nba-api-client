@@ -1,11 +1,10 @@
 const path = require('path');
-const fs = require('fs'); 
 const DOMParser = require('xmldom').DOMParser;
 const axios = require('axios');
-
-const stat_endpoints = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/endpoints.json'), 'utf8'));
-const teams = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/teams.json'), 'utf8'));
-const players = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/players.json'), 'utf8'));
+const stat_endpoints = require('./data/endpoints.json');
+const teams = require('./data/teams.json');
+const players = require('./data/players.json');
+const jsonp = require('jsonp');
 
 var default_options = {formatted: true, parameters: false}
 
@@ -21,6 +20,37 @@ generateURL = (params, endpoint) => {
 	return url;
 }
 
+formatData = (json, options) => {
+
+	var data = {};
+	var parameters = json.parameters;
+
+	if(options.formatted){
+		var result_set = json.resultSets;
+		for(i in result_set){
+			var merged = {};
+			if(result_set[i].rowSet.length !== 1){
+				var multipleRowSets = {};
+				for(j in result_set[i].rowSet){
+					var temp = {};
+					for(k in result_set[i].headers){
+						temp[result_set[i].headers[k]] = result_set[i].rowSet[j][k];
+					}
+					multipleRowSets[j] = temp;
+				}
+				data[result_set[i].name] = multipleRowSets;	
+			} else {
+				for(j in result_set[i].headers){
+					merged[result_set[i].headers[j]] = result_set[i].rowSet[0][j];
+				}
+				data[result_set[i].name] = merged;
+			}
+		}
+	} else data = json;
+	if (options.parameters) return {data, parameters};
+	else return data;
+}
+
 getDataFromNBA = (params, endpoint, options) => {
 	var headers = {
 		"Accept-Encoding": "Accepflate, sdch",
@@ -30,44 +60,24 @@ getDataFromNBA = (params, endpoint, options) => {
 		Host: "stats.nba.com",
 		Referer: "http://stats.nba.com/",
 		"User-Agent":
-			"PostmanRuntime/7.4.0" 
+		"PostmanRuntime/7.4.0" 
 	};
 
 	var url = generateURL(params, endpoint);
+	
 	return new Promise(function(resolve, reject){
-		axios.get(url, {headers}).then(function(res){
-
-			var data = {};
-			var json = res.data;
-			var parameters = json.parameters;
-
-			if(options.formatted){
-				var result_set = json.resultSets;
-				for(i in result_set){
-					var merged = {};
-					if(result_set[i].rowSet.length !== 1){
-						var multipleRowSets = {};
-						for(j in result_set[i].rowSet){
-							var temp = {};
-							for(k in result_set[i].headers){
-								temp[result_set[i].headers[k]] = result_set[i].rowSet[j][k];
-							}
-							multipleRowSets[j] = temp;
-						}
-						data[result_set[i].name] = multipleRowSets;	
-					} else {
-						for(j in result_set[i].headers){
-							merged[result_set[i].headers[j]] = result_set[i].rowSet[0][j];
-						}
-						data[result_set[i].name] = merged;
-					}
-				}
-			} else data = json;
-			if (options.parameters) resolve({data, parameters});
-			else resolve(data)
-		}).catch(function(err){
-			reject(err)
-		});	
+		if(typeof window === 'undefined'){
+			axios.get(url, {headers}).then(function(res){
+				resolve(formatData(res.data, options))
+			}).catch(function(err){
+				reject(err)
+			});	
+		} else {
+			jsonp(url, null, (err, data) => {
+				if(!err) resolve(formatData(data, options))
+					else reject(err)
+			});
+		}
 	});
 }
 
@@ -435,8 +445,8 @@ module.exports = {
 			axios.get('https://stats.nba.com/stats/videoevents?GameEventID=' + vid.EventNum + '&GameID=' + vid.GameID)
 			.then((res) => {
 				var vidId = res.data.resultSets.Meta.videoUrls[0].uuid;
-		      return axios.get('https://secure.nba.com/video/wsc/league/' + vidId + '.secure.xml');
-		  })
+				return axios.get('https://secure.nba.com/video/wsc/league/' + vidId + '.secure.xml');
+			})
 			.then((res) => {
 				var xmlData = new DOMParser().parseFromString(res.data, "text/xml");
 				var files = xmlData.documentElement.getElementsByTagName('file');
