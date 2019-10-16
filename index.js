@@ -431,7 +431,7 @@ module.exports = {
 
 	schedule: function(){
 		return new Promise(function(resolve, reject){
-			axios.get('https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2019/league/00_full_schedule_week.json')
+			axios.get('https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2018/league/00_full_schedule_week.json')
 			.then(function(res){
 				resolve(res.data)
 			}).catch(function(err){
@@ -442,16 +442,50 @@ module.exports = {
 
 	getPBPVideoURL: function(vid){
 		return new Promise(function(resolve, reject){
-			var url = 'https://stats.nba.com/stats/videoeventsasset?GameEventID=' + vid.EventNum + '&GameID=' + vid.GameID;
-			axios.get(url).then((res) => {
-			    var vidUrl = res.data.resultSets.Meta.videoUrls[0].lurl;
-				resolve(vidUrl);
-			}) 
-			.catch(function(err){
-				console.log(err);
-				reject(err)
-			});
-        })
-    }
+			var url = 'https://stats.nba.com/stats/videoevents?GameEventID=' + vid.EventNum + '&GameID=' + vid.GameID;
+			if(typeof window === "undefined"){
+				axios.get(url)
+				.then((res) => {
+					var vidId = res.data.resultSets.Meta.videoUrls[0].uuid;
+					return axios.get('https://secure.nba.com/video/wsc/league/' + vidId + '.secure.xml');
+				})
+				.then((res) => {
+					var xmlData = new DOMParser().parseFromString(res.data, "text/xml");
+					var files = xmlData.documentElement.getElementsByTagName('file');
+					if(vid.Size){
+						for(var i = 3; i < files.length; i++){
+							if(files[i].firstChild.data.includes(vid.Size)){
+								resolve(files[i].firstChild.data);
+								break;
+							}
+						} 
+					} else resolve(files[5].firstChild.data);
+				}) 
+				.catch(function(err){
+					console.log(err);
+					reject(err)
+				});
+			} else {
+				jsonp(url, null, (err, vidSet) => {
+					var vidId = vidSet.resultSets.Meta.videoUrls[0].uuid;
+					axios.get('https://secure.nba.com/video/wsc/league/' + vidId + '.secure.xml').then(function(res){
+						var xmlData = new DOMParser().parseFromString(res.data, "text/xml");
+						var files = xmlData.documentElement.getElementsByTagName('file');
+						if(vid.Size){
+							for(var i = 3; i < files.length; i++){
+								if(files[i].firstChild.data.includes(vid.Size)){
+									resolve(files[i].firstChild.data);
+									break;
+								}
+							} 
+						} else resolve(files[5].firstChild.data);
+					}).catch(function(err){
+						console.log(err);
+						reject(err)
+					});	
+				});
+			}
+		})
+	}
 };
 
