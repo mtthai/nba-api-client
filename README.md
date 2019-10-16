@@ -200,5 +200,5 @@ A VIDEO_AVAILABLE_FLAG at the end of the PBP data will indicate if there's video
 
 Possible video sizes are: 1920x1080, 1280x720, 960x540, 768x432, 640x360, 480x270, 416x240.
 
-***VIDEO PLAY-BY-PLAY ONLY FOR 2018-19 SEASON***
+*VIDEO PLAY-BY-PLAY ONLY FOR 2018-19 SEASON
 
