@@ -422,7 +422,7 @@ module.exports = {
 
 	getPlayerHeadshotURL: function(params){
 		return 'https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/' 
-		+ params.TeamID + '/2018/260x190/' + params.PlayerID + '.png';
+		+ params.TeamID + '/2019/260x190/' + params.PlayerID + '.png';
 	},
 
 	transactions: function(){
