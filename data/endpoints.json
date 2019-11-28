@@ -209,6 +209,31 @@
         "url": "https://stats.nba.com/stats/drafthistory"
     },
 
+    "fantasy_stats": {
+        "desc": "Fantasy stats and points for all players",
+        "params": {
+            "LeagueID": "00",
+            "Season": "2019-20",
+            "SeasonType": "Regular+Season",
+            "TodaysPlayers": "N",
+            "ActivePlayers": "Y",
+            "LastNGames": "10",
+            "TodaysOpponent": "0",
+            "PlayerID": "",
+            "TeamID": "",
+            "Location": "",
+            "SeasonSegment": "",
+            "DateFrom": "",
+            "DateTo": "",
+            "OpponentTeamID": "",
+            "VsConference": "",
+            "VsDivision": "",
+            "Position": "",
+            "PORound": ""
+        },
+        "url": "https://stats.nba.com/stats/fantasywidget"
+    },
+
     "franchise_history": {
         "desc": "History of team names and city relocations",
         "params": {

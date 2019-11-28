@@ -403,6 +403,10 @@ module.exports = {
 		return getDataFromNBA(params, "player_info", {...default_options, ...options});
 	},
 
+	fantasyStats: function(params, options){
+		return getDataFromNBA(params, "fantasy_stats", {...default_options, ...options});
+	},
+
 	leagueLeaders: function(params, options){
 		return getDataFromNBA(params, "league_leaders", {formatted: false, parameters: false});
 	},

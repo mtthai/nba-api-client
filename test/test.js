@@ -10,7 +10,12 @@ var firstKey = function(data){
 //so dont test all, test in chunks  
 
 describe('Getting NBA Data', function(){
-	
+	it('fantasyStats', function(){
+	 	return app.fantasyStats({TeamID: 1610612759}).then(function(data){
+	 		console.log(data)
+	 	});
+	 })
+	 
 	it('teamDetails', function(){
 		return app.teamDetails({"TeamID": 1610612745}).then(function(data){
 			expect(data[firstKey(data)]).to.not.be.empty;
