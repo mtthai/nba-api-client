@@ -12,10 +12,10 @@ var firstKey = function(data){
 describe('Getting NBA Data', function(){
 	it('fantasyStats', function(){
 	 	return app.fantasyStats({TeamID: 1610612759}).then(function(data){
-	 		console.log(data)
+			expect(data[firstKey(data)]).to.not.be.empty;
 	 	});
 	 })
-	 
+
 	it('teamDetails', function(){
 		return app.teamDetails({"TeamID": 1610612745}).then(function(data){
 			expect(data[firstKey(data)]).to.not.be.empty;
