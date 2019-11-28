@@ -201,3 +201,4 @@ A VIDEO_AVAILABLE_FLAG at the end of the PBP data will indicate if there's video
 Possible video sizes are: 1920x1080, 1280x720, 960x540, 768x432, 640x360, 480x270, 416x240.
 
 *VIDEO PLAY-BY-PLAY DOES NOT INCLUDE 2019-20 SEASON AND FUTURE SEASONS
+(For 2019-20 video play-by-play, use https://github.com/mtthai/nba-pbp-video)
