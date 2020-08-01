@@ -434,9 +434,9 @@ module.exports = {
 		return getDataFromNBA({}, "transactions", {formatted: false, parameters: false});
 	},
 
-	schedule: function(){
+	schedule: function(year){
 		return new Promise(function(resolve, reject){
-			axios.get('https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2018/league/00_full_schedule_week.json')
+			axios.get(`https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/${year}/league/00_full_schedule_week.json`)
 			.then(function(res){
 				resolve(res.data)
 			}).catch(function(err){
