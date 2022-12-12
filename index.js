@@ -54,14 +54,17 @@ formatData = (json, options) => {
 getDataFromNBA = (params, endpoint, options) => {
 	var headers = {
 		'Host': 'stats.nba.com',
-		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
-		'Accept': 'application/json, text/plain, */*',
-		'Accept-Language': 'en-US,en;q=0.5',
-		'Referer': 'https://stats.nba.com/',
-		'Accept-Encoding': 'gzip, deflate, br',
+		'Referer': 'https://www.nba.com',
+		'Origin': 'https://stats.nba.com/',
 		'Connection': 'keep-alive',
 		'x-nba-stats-origin': 'stats',
-		'x-nba-stats-token': 'true'
+		'x-nba-stats-token': 'true',
+		'Cache-Control': 'max-age=0',
+		'Upgrade-Insecure-Requests': '1',
+		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0',
+		'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3',
+		'Accept-Encoding': 'gzip, deflate, br',
+		'Accept-Language': 'en-US,en;q=0.9',
 	};
 
 	var url = generateURL(params, endpoint);
