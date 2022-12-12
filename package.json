@@ -26,7 +26,7 @@
     "axios": "^0.18.1",
     "jsonp": "^0.2.1",
     "path": "^0.12.7",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
